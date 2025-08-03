@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#heading {
+  height: 75px;
+  background-color: black;
+  color: white;
+  line-height: 5rem;
+}
+
+img {
+  width: 300px;
+  /* object-fit: contain;
+    border-radius: 50%;
+    overflow: hidden; */
+  clip-path: circle(30%);
+}
+
+#rock,
+#scissor,
+#paper {
+  transform: rotate(-90deg);
+}
+
+.choices {
+  height: 300px;
+  /* width: 300px; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.choice:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.scrore-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 5rem;
+  margin: 5rem;
+  margin-bottom: 2rem;
+}
+
+#user-score,
+#comp-score,
+#draw-score {
+  font-size: 4rem;
+}
+#msg {
+  background-color: #181717;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.7rem;
+}
+
+.userWin {
+  background-color: #49ec28;
+  color: #e21212;
+  font-size: 2rem;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.7rem;
+}
+
+.compWin {
+  background-color: #e21212;
+  color: 49ec28;
+  font-size: 2rem;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.7rem;
+}
+
+.gameDraw {
+  background-color: #181717;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.7rem;
+}
